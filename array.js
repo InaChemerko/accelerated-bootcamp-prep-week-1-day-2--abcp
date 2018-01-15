@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element) {
-
+var newArray = [...array,element];
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
